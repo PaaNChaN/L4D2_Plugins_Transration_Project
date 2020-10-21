@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"tank_percent"
+	{
+		"ko"			"{default}<{olive}탱크{default}> {red}%d%%"
+	}
+	"tank_none"
+	{
+		"ko"			"{default}<{olive}탱크{default}> {red}없음"
+	}
+	"witch_percent"
+	{
+		"ko"			"{default}<{olive}윗치{default}> {red}%d%%"
+	}
+	"witch_none"
+	{
+		"ko"			"{default}<{olive}윗치{default}> {red}없음"
+	}
+}

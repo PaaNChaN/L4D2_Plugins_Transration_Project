@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"ltc_TankMessage_you"
+	{
+		"jp"		"{red}<{default}Tank Selection{red}> {green}あなた{default}がこのチャプターの{red}タンク{default}です！"
+	}
+
+	"ltc_TankMessage"
+	{
+		"jp"		"{red}<{default}Tank Selection{red}> {olive}%s {default}がこのチャプターの{red}タンク{default}です！"
+	}
+	
+	"lototb_ragemeter_hint"
+	{
+		"jp"		"自制心メーターが2本目に到達"
+	}
+
+	"lototb_ragemeter_chat_you"
+	{
+		"jp"		"{red}<{default}Tank Rage{red}> {olive}自制心メーターが2本目に到達しました！{default}"
+	}
+
+	"lototb_ragemeter_chat"
+	{
+		"jp"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}自制心メーターが2本目に到達しました！{default}"
+	}
+}

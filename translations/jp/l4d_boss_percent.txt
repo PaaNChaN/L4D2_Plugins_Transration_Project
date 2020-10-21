@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"tank_percent"
+	{
+		"jp"			"{default}<{olive}タンク{default}> {red}%d%%"
+	}
+	"tank_none"
+	{
+		"jp"			"{default}<{olive}タンク{default}> {red}無し"
+	}
+	"witch_percent"
+	{
+		"jp"			"{default}<{olive}ウィッチ{default}> {red}%d%%"
+	}
+	"witch_none"
+	{
+		"jp"			"{default}<{olive}ウィッチ{default}> {red}無し"
+	}
+}

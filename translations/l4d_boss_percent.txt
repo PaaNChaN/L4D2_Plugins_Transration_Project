@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"tank_percent"
+	{
+		"en"			"{default}<{olive}Tank{default}> {red}%d%%"
+	}
+	"tank_none"
+	{
+		"en"			"{default}<{olive}Tank{default}> {red}None"
+	}
+	"witch_percent"
+	{
+		"en"			"{default}<{olive}Witch{default}> {red}%d%%"
+	}
+	"witch_none"
+	{
+		"en"			"{default}<{olive}Witch{default}> {red}None"
+	}
+}

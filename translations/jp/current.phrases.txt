@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"current_cmd"
+	{
+		"jp"		"距離: {green}%d%%{default}"
+	}
+}

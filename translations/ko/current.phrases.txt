@@ -1,0 +1,7 @@
+﻿"Phrases"
+{
+	"current_cmd"
+	{
+		"ko"		"거리: {green}%d%%{default}"
+	}
+}

@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"ltc_TankMessage_you"
+	{
+		"ko"		"{red}<{default}Tank Selection{red}> {green}당신 {default}이 이 챕터의 {red}탱크{default}입니다!"
+	}
+
+	"ltc_TankMessage"
+	{
+		"ko"		"{red}<{default}Tank Selection{red}> {olive}%s {default}이(가) 이 챕터의 {red}탱크{default}입니다!"
+	}
+	
+	"lototb_ragemeter_hint"
+	{
+		"ko"		"탱크의 제어가 두번째 입니다."
+	}
+
+	"lototb_ragemeter_chat_you"
+	{
+		"ko"		"{red}<{default}Tank Rage{red}> {olive}탱크의 제어가 두번째 입니다!{default}"
+	}
+
+	"lototb_ragemeter_chat"
+	{
+		"ko"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}탱크의 제어가 두번째 입니다!{default}"
+	}
+}

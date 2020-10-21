@@ -1,0 +1,26 @@
+"Phrases"
+{
+	"ltc_TankMessage_you"
+	{
+		"en"		"{red}<{default}Tank Selection{red}> {green}You {default}will become the {red}Tank{default}!"
+	}
+	"ltc_TankMessage"
+	{
+		"en"		"{red}<{default}Tank Selection{red}> {olive}%s {default}will become the {red}Tank!"
+	}
+	
+	"lototb_ragemeter_hint"
+	{
+		"en"		"Rage Meter Refilled"
+	}
+
+	"lototb_ragemeter_chat_you"
+	{
+		"en"		"{red}<{default}Tank Rage{red}> {olive}Rage Meter {red}Refilled"
+	}
+
+	"lototb_ragemeter_chat"
+	{
+		"en"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}Rage Meter {red}Refilled"
+	}
+}

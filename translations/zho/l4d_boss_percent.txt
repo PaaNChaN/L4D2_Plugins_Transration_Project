@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"tank_percent"
+	{
+		"zho"			"{default}<{olive}坦克{default}> {red}%d%%"
+	}
+	"tank_none"
+	{
+		"zho"			"{default}<{olive}坦克{default}> {red}无"
+	}
+	"witch_percent"
+	{
+		"zho"			"{default}<{olive}女巫{default}> {red}%d%%"
+	}
+	"witch_none"
+	{
+		"zho"			"{default}<{olive}女巫{default}> {red}无"
+	}
+}

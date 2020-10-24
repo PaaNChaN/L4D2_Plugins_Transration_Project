@@ -1,0 +1,17 @@
+﻿"Phrases"
+{
+	"prh_remaining_health"
+	{
+		"en"		"{default}<SM> Tank ({red}%s{default}) had {olive}%d{default} health remaining"
+	}
+	
+	"ptd_tankdmg"
+	{
+		"en"		"{default}<SM> Damage dealt to tank ({red}%s{default}):"
+	}
+
+	"ptd_tank_surdmg"
+	{
+		"en"		"{olive} %4d{default} Dmg [{green}%d%%{default}]: {blue}%N{default}"
+	}
+}

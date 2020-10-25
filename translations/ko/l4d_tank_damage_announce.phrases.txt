@@ -12,6 +12,6 @@
 
 	"ptd_tank_surdmg"
 	{
-		"ko"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%"
+		"ko"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
 	}
 }

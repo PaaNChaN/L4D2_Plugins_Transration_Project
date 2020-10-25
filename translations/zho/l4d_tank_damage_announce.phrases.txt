@@ -2,12 +2,12 @@
 {
 	"prh_remaining_health"
 	{
-		"zho"		"{default}[{green}!{default}] {blue}坦克 {default}({olive}%s{default}) 还剩 {green}%d血{default}"
+		"zho"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default}) 還剩 {green}%d血{default}"
 	}
 	
 	"ptd_tankdmg"
 	{
-		"zho"		"{default}[{green}!{default}] {blue}对 坦克 {default}({olive}%s{default}) 造成的伤害"
+		"zho"		"{default}[{green}!{default}] {blue}對 Tank {default}({olive}%s{default}) 造成的傷害"
 	}
 
 	"ptd_tank_surdmg"

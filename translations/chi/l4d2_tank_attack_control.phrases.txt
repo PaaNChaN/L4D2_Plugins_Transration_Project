@@ -2,21 +2,21 @@
 {
 	"rockSelector"
 	{
-		"chi"		"{blue}[{default}投掷方式{blue}]"
+		"chi"		"{blue}[{default}石头投掷方式{blue}]"
 	}
 
 	"twoHandOverhand"
 	{
-		"chi"		"{olive}换弹{default}= {blue}双手过头"
+		"chi"		"{olive}<装弹药>键{default}= {blue}双手过头"
 	}
 	
 	"underhandThrow"
 	{
-		"chi"		"{olive}使用键{default}= {blue}侧扔"
+		"chi"		"{olive}<使用>键{default}= {blue}侧身投掷"
 	}
 
 	"oneHandOverhand"
 	{
-		"chi"		"{olive}推{default}= {blue}单手过头"
+		"chi"		"{olive}<推开>键{default}= {blue}单手过头"
 	}
 }

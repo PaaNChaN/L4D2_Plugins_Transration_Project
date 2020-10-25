@@ -2,6 +2,6 @@
 {
 	"ets_tank_spawn"
 	{
-		"zho"		"{red}[{default}!{red}] {olive}坦克 {default}已出現!"
+		"zho"		"{red}[{default}!{red}] {olive}Tank {default}已出現!"
 	}
 }

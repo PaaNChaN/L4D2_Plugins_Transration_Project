@@ -1,0 +1,17 @@
+﻿"Phrases"
+{
+	"prh_remaining_health"
+	{
+		"en"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default}) had {green}%d {default}health remaining"
+	}
+	
+	"ptd_tankdmg"
+	{
+		"en"		"{default}[{green}!{default}] {blue}Damage {default}dealt to {blue}Tank {default}({olive}%s{default})"
+	}
+
+	"ptd_tank_surdmg"
+	{
+		"en"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
+	}
+}

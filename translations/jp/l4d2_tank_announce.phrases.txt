@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"ets_tank_spawn"
+	{
+		"jp"		"{red}[{default}!{red}] {olive}タンク {default}が出現しました！"
+	}
+}

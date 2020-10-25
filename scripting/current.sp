@@ -11,7 +11,7 @@ new Handle:g_hVsBossBuffer;
 
 public Plugin:myinfo =
 {
-    name = "L4D2 Survivor Progress (Transration Ver)",
+    name = "L4D2 Survivor Progress",
     author = "CanadaRox, Visor",
     description = "Print survivor progress in flow percents ",
     version = "2.0.1",

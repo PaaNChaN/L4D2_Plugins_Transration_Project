@@ -1,0 +1,12 @@
+﻿"Phrases"
+{
+	"losm_common_limit"
+	{
+		"ko"		"<{olive}Horde{default}> {olive}%i {blue}마리의 좀비 이벤트 시작!{default} 기다리거나 달리거나 선택은 자유!"
+	}
+
+	"oec_remaining"
+	{
+		"ko"		"<{olive}Horde{default}> {red}%i{default} 마리 남음.."
+	}
+}

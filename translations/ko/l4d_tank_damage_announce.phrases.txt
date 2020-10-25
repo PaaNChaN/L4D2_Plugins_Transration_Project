@@ -1,0 +1,17 @@
+"Phrases"
+{
+	"prh_remaining_health"
+	{
+		"ko"		"{default}[{green}!{default}] {blue}탱크 {default}({olive}%s{default}) 는나머지{green}%d {default}HP 남아 있습니다"
+	}
+	
+	"ptd_tankdmg"
+	{
+		"ko"		"{default}[{green}!{default}] {blue}탱크 {default}에게 준{blue}데미지{default}({olive}%s{default})"
+	}
+
+	"ptd_tank_surdmg"
+	{
+		"ko"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%"
+	}
+}

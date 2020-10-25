@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"losm_common_limit"
+	{
+		"zho"		"<{olive}Horde{default}> {blue}有限尸潮{default} 已經開始, 將刷出 {olive}%i{default} 個喪尸.."
+	}
+
+	"oec_remaining"
+	{
+		"zho"		"<{olive}Horde{default}> 还剩 {red}%i{default} 个.."
+	}
+}

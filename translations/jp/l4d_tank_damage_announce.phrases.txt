@@ -1,0 +1,17 @@
+"Phrases"
+{
+	"prh_remaining_health"
+	{
+		"jp"		"{default}[{green}!{default}] {blue}タンク {default}({olive}%s{default}) は残り{green}%d {default}HP 残っています"
+	}
+	
+	"ptd_tankdmg"
+	{
+		"jp"		"{default}[{green}!{default}] {blue}タンク {default}に与えた{blue}ダメージ{default}({olive}%s{default})"
+	}
+
+	"ptd_tank_surdmg"
+	{
+		"jp"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%"
+	}
+}

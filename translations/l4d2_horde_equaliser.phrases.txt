@@ -1,0 +1,12 @@
+﻿"Phrases"
+{
+	"losm_common_limit"
+	{
+		"en"		"<{olive}Horde{default}> A {blue}finite event{default} of {olive}%i{default} commons has started! Rush or wait it out, the choice is yours!"
+	}
+
+	"oec_remaining"
+	{
+		"en"		"<{olive}Horde{default}> {red}%i{default} common remaining.."
+	}
+}

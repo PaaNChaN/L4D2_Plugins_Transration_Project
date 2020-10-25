@@ -1,0 +1,17 @@
+﻿"Phrases"
+{
+	"prh_remaining_health"
+	{
+		"chi"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default}) 還剩 {green}%d血{default}"
+	}
+	
+	"ptd_tankdmg"
+	{
+		"chi"		"{default}[{green}!{default}] {blue}對 Tank {default}({olive}%s{default}) 造成的傷害"
+	}
+
+	"ptd_tank_surdmg"
+	{
+		"chi"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
+	}
+}

@@ -2,26 +2,26 @@
 {
 	"ltc_TankMessage_you"
 	{
-		"chi"		"{red}<{default}Tank Selection{red}> {green}你 {default}将成为 {red}tank{default}!"
+		"chi"		"{red}<{default}Tank Selection{red}> {green}你 {default}将成为 {red}坦克{default}!"
 	}
 
 	"ltc_TankMessage"
 	{
-		"chi"		"{red}<{default}Tank Selection{red}> {olive}%s {default}将成为 {red}tank{default}!"
+		"chi"		"{red}<{default}Tank Selection{red}> {olive}%s {default}将成为 {red}坦克{default}!"
 	}
 	
 	"lototb_ragemeter_hint"
 	{
-		"chi"		"现在 Tank 第二控"
+		"chi"		"现在 坦克 第二控"
 	}
 
 	"lototb_ragemeter_chat_you"
 	{
-		"chi"		"{red}<{default}Tank Rage{red}> {olive}現在 tank 第二控{default}"
+		"chi"		"{red}<{default}Tank Rage{red}> {olive}現在 坦克 第二控{default}"
 	}
 
 	"lototb_ragemeter_chat"
 	{
-		"chi"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}现在 tank 第二控{default}"
+		"chi"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}现在 坦克 第二控{default}"
 	}
 }

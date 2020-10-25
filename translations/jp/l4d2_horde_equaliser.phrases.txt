@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"losm_common_limit"
+	{
+		"jp"		"<{olive}Horde{default}> {blue}有限ラッシュイベント{default}が発生しました！ {olive}%i{default} 体のゾンビが襲ってきます！ 先に進むかラッシュが止まるまで待つかはあなた次第！"
+	}
+
+	"oec_remaining"
+	{
+		"jp"		"<{olive}Horde{default}> 残り {red}%i{default} 体.."
+	}
+}

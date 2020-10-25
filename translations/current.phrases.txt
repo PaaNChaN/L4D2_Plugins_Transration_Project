@@ -2,6 +2,6 @@
 {
 	"current_cmd"
 	{
-		"en"		Current: {green}%d%%{default}"
+		"en"		"Current: {green}%d%%{default}"
 	}
 }

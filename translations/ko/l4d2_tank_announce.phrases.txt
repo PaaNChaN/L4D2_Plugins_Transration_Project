@@ -1,0 +1,7 @@
+﻿"Phrases"
+{
+	"ets_tank_spawn"
+	{
+		"ko"		"{red}[{default}!{red}] {olive}탱크{default}가 출현했습니다!"
+	}
+}

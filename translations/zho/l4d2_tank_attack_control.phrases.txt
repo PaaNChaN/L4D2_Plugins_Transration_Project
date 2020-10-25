@@ -2,21 +2,21 @@
 {
 	"rockSelector"
 	{
-		"zho"		"{blue}[{default}投擲方式{blue}]"
+		"zho"		"{blue}[{default}石頭投擲方式{blue}]"
 	}
 
 	"twoHandOverhand"
 	{
-		"zho"		"{olive}重載{default}= {blue}雙手過頭"
+		"zho"		"{olive}<裝填彈藥>鍵{default}= {blue}雙手過頭"
 	}
 	
 	"underhandThrow"
 	{
-		"zho"		"{olive}使用鍵{default}= {blue}側扔"
+		"zho"		"{olive}<使用>鍵{default}= {blue}側身投擲"
 	}
 
 	"oneHandOverhand"
 	{
-		"zho"		"{olive}推{default}= {blue}單手過頭"
+		"zho"		"{olive}<推開>鍵{default}= {blue}單手過頭"
 	}
 }

@@ -10,7 +10,7 @@
 	}
 	"announceff_chat_damagetotal"
 	{
-		"chi"		"<{olive}FFAnnounce{default}> 總傷害: {green}%d{default}"
+		"chi"		"<{olive}FFAnnounce{default}> 总伤害: {green}%d{default}"
 	}
 	"announceff_hint_attack"
 	{
@@ -35,6 +35,6 @@
 	"announceff_print_roundend_totaldamage_player"
 	{
 		"#format"	"{1:s},{2:d},{3:.0f}"
-		"chi"		"{olive}{2}{default} 损伤 [{green}{3}%%{default}] : {blue}{1}{default}"
+		"chi"		"{olive}{2}{default} 损伤了 [{green}{3}%%{default}] : {blue}{1}{default}"
 	}
 }

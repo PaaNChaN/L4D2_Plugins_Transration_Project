@@ -2,18 +2,18 @@
 {
 	"tank_percent"
 	{
-		"chi"			"{default}<{olive}坦克{default}> {red}%d%%"
+		"chi"			"{default}<{olive}Tank{default}> {red}%d%%"
 	}
 	"tank_none"
 	{
-		"chi"			"{default}<{olive}坦克{default}> {red}无"
+		"chi"			"{default}<{olive}Tank{default}> {red}无"
 	}
 	"witch_percent"
 	{
-		"chi"			"{default}<{olive}女巫{default}> {red}%d%%"
+		"chi"			"{default}<{olive}Witch{default}> {red}%d%%"
 	}
 	"witch_none"
 	{
-		"chi"			"{default}<{olive}女巫{default}> {red}无"
+		"chi"			"{default}<{olive}Witch{default}> {red}无"
 	}
 }

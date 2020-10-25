@@ -10,7 +10,7 @@
 	}
 	"announceff_chat_damagetotal"
 	{
-		"ko"		"<{olive}FFAnnounce{default}> 총 데미지: {green}%d{default}"
+		"ko"		"<{olive}FFAnnounce{default}> 누적 데미지: {green}%d{default}"
 	}
 	"announceff_hint_attack"
 	{

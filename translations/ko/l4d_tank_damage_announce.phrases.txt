@@ -7,7 +7,7 @@
 	
 	"ptd_tankdmg"
 	{
-		"ko"		"{default}[{green}!{default}] {blue}탱크 {default}에게 준{blue}데미지{default}({olive}%s{default})"
+		"ko"		"{default}[{green}!{default}] {blue}탱크 {default}에게 준 {blue}데미지{default}({olive}%s{default})"
 	}
 
 	"ptd_tank_surdmg"

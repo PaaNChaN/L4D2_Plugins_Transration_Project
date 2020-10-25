@@ -1,0 +1,47 @@
+﻿"Phrases"
+{
+	"Title"
+	{
+		"zho"		"特殊感染:"
+	}
+
+	"Smoker"
+	{
+		"zho"		"Smoker"
+	}
+	
+	"Boomer"
+	{
+		"zho"		"(Boomer)"
+	}
+
+	"Hunter"
+	{
+		"zho"		"Hunter"
+	}
+
+	"Spitter"
+	{
+		"zho"		"(Spitter)"
+	}
+
+	"Jockey"
+	{
+		"zho"		"Jockey"
+	}
+
+	"Charger"
+	{
+		"zho"		"Charger"
+	}
+
+	"Witch"
+	{
+		"zho"		"Witch"
+	}
+
+	"Tank"
+	{
+		"zho"		"Tank"
+	}
+}

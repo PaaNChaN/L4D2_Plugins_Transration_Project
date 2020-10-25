@@ -1,0 +1,22 @@
+﻿"Phrases"
+{
+	"rockSelector"
+	{
+		"chi"		"{blue}[{default}投掷方式{blue}]"
+	}
+
+	"twoHandOverhand"
+	{
+		"chi"		"{olive}换弹{default}= {blue}双手过头"
+	}
+	
+	"underhandThrow"
+	{
+		"chi"		"{olive}使用键{default}= {blue}侧扔"
+	}
+
+	"oneHandOverhand"
+	{
+		"chi"		"{olive}推{default}= {blue}单手过头"
+	}
+}

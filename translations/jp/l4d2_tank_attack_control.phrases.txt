@@ -1,0 +1,22 @@
+"Phrases"
+{
+	"rockSelector"
+	{
+		"jp"		"{blue}[{default}岩投げモーションの選択{blue}]"
+	}
+
+	"twoHandOverhand"
+	{
+		"jp"		"{olive}リロードキー{default}= {blue}上投げ2"
+	}
+	
+	"underhandThrow"
+	{
+		"jp"		"{olive}USEキー{default}= {blue}下投げ"
+	}
+
+	"oneHandOverhand"
+	{
+		"jp"		"{olive}副攻撃キー{default}= {blue}上投げ1"
+	}
+}

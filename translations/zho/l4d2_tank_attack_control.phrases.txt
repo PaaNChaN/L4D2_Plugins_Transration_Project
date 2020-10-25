@@ -1,0 +1,22 @@
+﻿"Phrases"
+{
+	"rockSelector"
+	{
+		"zho"		"{blue}[{default}投擲方式{blue}]"
+	}
+
+	"twoHandOverhand"
+	{
+		"zho"		"{olive}重載{default}= {blue}雙手過頭"
+	}
+	
+	"underhandThrow"
+	{
+		"zho"		"{olive}使用鍵{default}= {blue}側扔"
+	}
+
+	"oneHandOverhand"
+	{
+		"zho"		"{olive}推{default}= {blue}單手過頭"
+	}
+}

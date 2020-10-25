@@ -1,0 +1,22 @@
+﻿"Phrases"
+{
+	"rockSelector"
+	{
+		"en"		"{blue}[{default}Tank Rock Selector{blue}]"
+	}
+
+	"twoHandOverhand"
+	{
+		"en"		"{olive}Reload {default}= {blue}2 Handed Overhand"
+	}
+	
+	"underhandThrow"
+	{
+		"en"		"{olive}Use {default}= {blue}Underhand"
+	}
+
+	"oneHandOverhand"
+	{
+		"en"		"{olive}M2 {default}= {blue}1 Handed Overhand"
+	}
+}

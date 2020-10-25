@@ -1,0 +1,40 @@
+"Phrases"
+{
+	"announceff_chat_attack"
+	{
+		"ko"		"<{olive}FFAnnounce{default}> {green}{1}{default} 데미지를 {blue}{2}{default}에게 줌!"
+	}
+	"announceff_chat_attacked"
+	{
+		"ko"		"<{olive}FFAnnounce{default}> {blue}%s{default}에게 {green}%d{default} 데미지를 받음!"
+	}
+	"announceff_chat_damagetotal"
+	{
+		"ko"		"<{olive}FFAnnounce{default}> 총 데미지: {green}%d{default}"
+	}
+	"announceff_hint_attack"
+	{
+		"ko"		"<FFAnnounce> {1} 데미지를 {2}에게 줌!"
+	}
+	"announceff_hint_attacked"
+	{
+		"ko"		"<FFAnnounce> %s에게 %d 데미지를 받음!"
+	}
+	"announceff_printcenter_attack"
+	{
+		"ko"		"<FFAnnounce> {1} 데미지를 {2}에게 줌!"
+	}
+	"announceff_printcenter_attacked"
+	{
+		"ko"		"<FFAnnounce> %s에게 %d 데미지를 받음!"
+	}
+	"announceff_print_roundend_totaldamage"
+	{
+		"ko"		"<{olive}FFAnnounce{default}> 당신이 플레이어에게 준 데미지의 총:"
+	}
+	"announceff_print_roundend_totaldamage_player"
+	{
+		"#format"	"{1:s},{2:d},{3:.0f}"
+		"ko"		"{olive}{2}{default} 데미지 [{green}{3}%%{default}] : {blue}{1}{default}"
+	}
+}

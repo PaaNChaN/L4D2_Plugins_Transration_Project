@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"(Voice)"
+	{
+		"zho"		"(人物語言)"
+	}
+	
+	"playeraskready"
+	{
+		"zho"		"準備好了？"
+	}
+	
+	"playerno"
+	{
+		"zho"		"不"
+	}
+	
+	"playersorry"
+	{
+		"zho"		"抱歉啦"
+	}
+	
+	"playeryes"
+	{
+		"zho"		"好"
+	}
+	
+	"playerthanks"
+	{
+		"zho"		"謝謝你！"
+	}
+	
+	"playermoveon"
+	{
+		"zho"		"走吧"
+	}
+	
+	"playerleadon"
+	{
+		"zho"		"你帶路"
+	}
+	
+	"playerhurryup"
+	{
+		"zho"		"快點！"
+	}
+	
+	"playernicejob"
+	{
+		"zho"		"幹得好！"
+	}
+	
+	"playerwaithere"
+	{
+		"zho"		"等等"
+	}
+	
+	"playerwarncareful"
+	{
+		"zho"		"小心點"
+	}
+	
+	"playerimwithyou"
+	{
+		"zho"		"我跟你一起走"
+	}
+	
+	"playeralsowarnsmoker"
+	{
+		"zho"		"Smoker!"
+	}
+	
+	"playeralsowarnboomer"
+	{
+		"zho"		"Boomer!"
+	}
+	
+	"playeralsowarnhunter"
+	{
+		"zho"		"Hunter!"
+	}
+	
+	"playeralsowarnspitter"
+	{
+		"zho"		"Spitter!"
+	}
+	
+	"playeralsowarnjockey"
+	{
+		"zho"		"Jockey!"
+	}
+	
+	"playeralsowarncharger"
+	{
+		"zho"		"Charger!"
+	}
+	
+	"playeralsowarnwitch"
+	{
+		"zho"		"Witch!"
+	}
+	
+	"playeralsowarntank"
+	{
+		"zho"		"Tank!"
+	}
+}

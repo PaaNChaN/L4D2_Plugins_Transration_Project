@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"(Voice)"
+	{
+		"ko"		"(Voice)"
+	}
+	
+	"playeraskready"
+	{
+		"ko"		"준비됐어?"
+	}
+	
+	"playerno"
+	{
+		"ko"		"아니"
+	}
+	
+	"playersorry"
+	{
+		"ko"		"미안해"
+	}
+	
+	"playeryes"
+	{
+		"ko"		"응"
+	}
+	
+	"playerthanks"
+	{
+		"ko"		"고마워!"
+	}
+	
+	"playermoveon"
+	{
+		"ko"		"가자!"
+	}
+	
+	"playerleadon"
+	{
+		"ko"		"앞장서"
+	}
+	
+	"playerhurryup"
+	{
+		"ko"		"서둘러!"
+	}
+	
+	"playernicejob"
+	{
+		"ko"		"잘했어!"
+	}
+	
+	"playerwaithere"
+	{
+		"ko"		"기다려!"
+	}
+	
+	"playerwarncareful"
+	{
+		"ko"		"조심해"
+	}
+	
+	"playerimwithyou"
+	{
+		"ko"		"같이 갈게"
+	}
+	
+	"playeralsowarnsmoker"
+	{
+		"ko"		"스모커!"
+	}
+	
+	"playeralsowarnboomer"
+	{
+		"ko"		"부머!"
+	}
+	
+	"playeralsowarnhunter"
+	{
+		"ko"		"헌터!"
+	}
+	
+	"playeralsowarnspitter"
+	{
+		"ko"		"스피터!"
+	}
+	
+	"playeralsowarnjockey"
+	{
+		"ko"		"조키!"
+	}
+	
+	"playeralsowarncharger"
+	{
+		"ko"		"차져!"
+	}
+	
+	"playeralsowarnwitch"
+	{
+		"ko"		"윗치!"
+	}
+	
+	"playeralsowarntank"
+	{
+		"ko"		"탱크!"
+	}
+}

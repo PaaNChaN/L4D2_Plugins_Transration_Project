@@ -1,0 +1,22 @@
+﻿"Phrases"
+{
+	"rockSelector"
+	{
+		"ko"		"{blue}[{default}돌 던지기선택{blue}]"
+	}
+
+	"twoHandOverhand"
+	{
+		"ko"		"{olive}Reload{default}= {blue}두손위로 던지기"
+	}
+	
+	"underhandThrow"
+	{
+		"ko"		"{olive}Use{default}= {blue}밑으로 던지기"
+	}
+
+	"oneHandOverhand"
+	{
+		"ko"		"{olive}Melee{default}= {blue}한손위로 던지기"
+	}
+}

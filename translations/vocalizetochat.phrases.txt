@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"(Voice)"
+	{
+		"en"		"(Voice)"
+	}
+	
+	"playeraskready"
+	{
+		"en"		"Ready?"
+	}
+	
+	"playerno"
+	{
+		"en"		"No"
+	}
+	
+	"playersorry"
+	{
+		"en"		"Sorry"
+	}
+	
+	"playeryes"
+	{
+		"en"		"Yes"
+	}
+	
+	"playerthanks"
+	{
+		"en"		"Thanks!"
+	}
+	
+	"playermoveon"
+	{
+		"en"		"Let's Go"
+	}
+	
+	"playerleadon"
+	{
+		"en"		"Lead On"
+	}
+	
+	"playerhurryup"
+	{
+		"en"		"Hurry Up!"
+	}
+	
+	"playernicejob"
+	{
+		"en"		"Nice Job!"
+	}
+	
+	"playerwaithere"
+	{
+		"en"		"Wait Here!"
+	}
+	
+	"playerwarncareful"
+	{
+		"en"		"Be Careful"
+	}
+	
+	"playerimwithyou"
+	{
+		"en"		"I'm With You"
+	}
+	
+	"playeralsowarnsmoker"
+	{
+		"en"		"Smoker!"
+	}
+	
+	"playeralsowarnboomer"
+	{
+		"en"		"Boomer!"
+	}
+	
+	"playeralsowarnhunter"
+	{
+		"en"		"Hunter!"
+	}
+	
+	"playeralsowarnspitter"
+	{
+		"en"		"Spitter!"
+	}
+	
+	"playeralsowarnjockey"
+	{
+		"en"		"Jockey!"
+	}
+	
+	"playeralsowarncharger"
+	{
+		"en"		"Charger!"
+	}
+	
+	"playeralsowarnwitch"
+	{
+		"en"		"Witch!"
+	}
+	
+	"playeralsowarntank"
+	{
+		"en"		"Tank!"
+	}
+}

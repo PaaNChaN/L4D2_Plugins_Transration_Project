@@ -1,0 +1,41 @@
+"Phrases"
+{
+	"announceff_chat_attack"
+	{
+		"#format"	"{1:d},{2:s}"
+		"jp"		"<{olive}FFAnnounce{default}> あなたは {blue}{2}{default} に {green}{1}{default} ダメージのFFを与えた！"
+	}
+	"announceff_chat_attacked"
+	{
+		"jp"		"<{olive}FFAnnounce{default}> {blue}%s{default} から {green}%d{default} ダメージのFFを食らった！"
+	}
+	"announceff_chat_damagetotal"
+	{
+		"jp"		"<{olive}FFAnnounce{default}> 合計ダメージ: {green}%d{default}"
+	}
+	"announceff_hint_attack"
+	{
+		"jp"		"<FFAnnounce> {1} ダメージのFFを {2} に与えてしまった！"
+	}
+	"announceff_hint_attacked"
+	{
+		"jp"		"<FFAnnounce> %s から %d ダメージのFFを食らった！"
+	}
+	"announceff_printcenter_attack"
+	{
+		"jp"		"<FFAnnounce> {1} ダメージのFFを {2} に与えてしまった！"
+	}
+	"announceff_printcenter_attacked"
+	{
+		"jp"		"<FFAnnounce> %s から %d ダメージのFFを食らった！"
+	}
+	"announceff_print_roundend_totaldamage"
+	{
+		"jp"		"<{olive}FFAnnounce{default}> あなたがプレイヤーに与えたFFダメージの合計:"
+	}
+	"announceff_print_roundend_totaldamage_player"
+	{
+		"#format"	"{1:s},{2:d},{3:.0f}"
+		"jp"		"{olive}{2}{default} ダメージ [{green}{3}%%{default}] : {blue}{1}{default}"
+	}
+}

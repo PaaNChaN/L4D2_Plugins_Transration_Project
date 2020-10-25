@@ -1,0 +1,40 @@
+"Phrases"
+{
+	"announceff_chat_attack"
+	{
+		"zho"		"<{olive}FFAnnounce{default}> 你友傷了 {blue}{2}{default} {green}{1}{default} 血!"
+	}
+	"announceff_chat_attacked"
+	{
+		"zho"		"<{olive}FFAnnounce{default}> {blue}%s{default} 友傷你 {green}%d{default} 血!"
+	}
+	"announceff_chat_damagetotal"
+	{
+		"zho"		"<{olive}FFAnnounce{default}> 总伤害: {green}%d{default}"
+	}
+	"announceff_hint_attack"
+	{
+		"zho"		"<FFAnnounce> 你友傷了 {2} {1} 血!"
+	}
+	"announceff_hint_attacked"
+	{	
+		"zho"		"<FFAnnounce> %s 友傷你 %d 血!"
+	}
+	"announceff_printcenter_attack"
+	{
+		"zho"		"<FFAnnounce> 你友傷了 {2} {1} 血!"
+	}
+	"announceff_printcenter_attacked"
+	{
+		"zho"		"<FFAnnounce> %s 友傷你 %d 血!"
+	}
+	"announceff_print_roundend_totaldamage"
+	{
+		"zho"		"<{olive}FFAnnounce{default}> 您對玩家造成的總傷害:"
+	}
+	"announceff_print_roundend_totaldamage_player"
+	{
+		"#format"	"{1:s},{2:d},{3:.0f}"
+		"zho"		"{olive}{2}{default} Dmg [{green}{3}%%{default}] : {blue}{1}{default}"
+	}
+}

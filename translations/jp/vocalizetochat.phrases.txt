@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"(Voice)"
+	{
+		"jp"		"(ボイス)"
+	}
+	
+	"playeraskready"
+	{
+		"jp"		"準備はいい？"
+	}
+	
+	"playerno"
+	{
+		"jp"		"いいえ"
+	}
+	
+	"playersorry"
+	{
+		"jp"		"ごめんなさい"
+	}
+	
+	"playeryes"
+	{
+		"jp"		"はい"
+	}
+	
+	"playerthanks"
+	{
+		"jp"		"ありがとう！"
+	}
+	
+	"playermoveon"
+	{
+		"jp"		"前進しよう！"
+	}
+	
+	"playerleadon"
+	{
+		"jp"		"先導して！"
+	}
+	
+	"playerhurryup"
+	{
+		"jp"		"急いで！"
+	}
+	
+	"playernicejob"
+	{
+		"jp"		"グッジョブ！"
+	}
+	
+	"playerwaithere"
+	{
+		"jp"		"待って！"
+	}
+	
+	"playerwarncareful"
+	{
+		"jp"		"気をつけて！"
+	}
+	
+	"playerimwithyou"
+	{
+		"jp"		"近くにいるよ！"
+	}
+	
+	"playeralsowarnsmoker"
+	{
+		"jp"		"スモーカー！"
+	}
+	
+	"playeralsowarnboomer"
+	{
+		"jp"		"ブーマー！"
+	}
+	
+	"playeralsowarnhunter"
+	{
+		"jp"		"ハンター！"
+	}
+	
+	"playeralsowarnspitter"
+	{
+		"jp"		"スピッター！"
+	}
+	
+	"playeralsowarnjockey"
+	{
+		"jp"		"ジョッキー！"
+	}
+	
+	"playeralsowarncharger"
+	{
+		"jp"		"チャージャー！"
+	}
+	
+	"playeralsowarnwitch"
+	{
+		"jp"		"ウィッチ！"
+	}
+	
+	"playeralsowarntank"
+	{
+		"jp"		"タンク！"
+	}
+}

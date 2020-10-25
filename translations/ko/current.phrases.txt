@@ -2,6 +2,6 @@
 {
 	"current_cmd"
 	{
-		"ko"		"거리: {green}%d%%{default}"
+		"ko"		"진행도: {green}%d%%{default}"
 	}
 }

@@ -10,7 +10,7 @@
 	}
 	"announceff_chat_damagetotal"
 	{
-		"zho"		"<{olive}FFAnnounce{default}> 总傷害: {green}%d{default}"
+		"zho"		"<{olive}FFAnnounce{default}> 總傷害: {green}%d{default}"
 	}
 	"announceff_hint_attack"
 	{
@@ -35,6 +35,6 @@
 	"announceff_print_roundend_totaldamage_player"
 	{
 		"#format"	"{1:s},{2:d},{3:.0f}"
-		"zho"		"{olive}{2}{default} 損傷了 [{green}{3}%%{default}] : {blue}{1}{default}"
+		"zho"		"{olive}{2}{default} 友傷 [{green}{3}%%{default}] : {blue}{1}{default}"
 	}
 }

@@ -30,7 +30,7 @@
 	}
 	"announceff_print_roundend_totaldamage"
 	{
-		"ko"		"<{olive}FFAnnounce{default}> 당신이 플레이어에게 준 데미지의 총:"
+		"ko"		"<{olive}FFAnnounce{default}> 당신이 플레이어들에게 준 데미지의 합계:"
 	}
 	"announceff_print_roundend_totaldamage_player"
 	{

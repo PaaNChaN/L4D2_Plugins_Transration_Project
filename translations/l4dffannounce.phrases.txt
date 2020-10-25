@@ -33,7 +33,7 @@
 	}
 	"announceff_print_roundend_totaldamage"
 	{
-		"en"		"<{olive}FFAnnounce{default}> total FF damage dealt to the players:"
+		"en"		"<{olive}FFAnnounce{default}> Total FF damage dealt to the players:"
 	}
 	"announceff_print_roundend_totaldamage_player"
 	{

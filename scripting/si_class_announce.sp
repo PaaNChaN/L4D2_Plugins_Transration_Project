@@ -101,7 +101,7 @@ stock AnnounceSIClasses()
 
     for (new i = 1; i <= MaxClients; i++) {
 
-        // if (!IS_VALID_SURVIVOR(i)) { continue; }
+        if (!IS_VALID_SURVIVOR(i)) { continue; }
 
         SetGlobalTransTarget(i);
 

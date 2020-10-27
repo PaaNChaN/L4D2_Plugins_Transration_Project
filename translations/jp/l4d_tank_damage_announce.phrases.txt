@@ -7,7 +7,7 @@
 	
 	"ptd_tankdmg"
 	{
-		"jp"		"{default}[{green}!{default}] {blue}タンク{default}に与えた{blue}ダメージ{default}({olive}%s{default})"
+		"jp"		"{default}[{green}!{default}] {blue}タンク{default}に与えた{blue}ダメージ{default} ({olive}%s{default})"
 	}
 
 	"ptd_tank_surdmg"

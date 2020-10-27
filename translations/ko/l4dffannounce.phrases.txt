@@ -2,6 +2,7 @@
 {
 	"announceff_chat_attack"
 	{
+		"#format"	"{1:d},{2:s}"
 		"ko"		"<{olive}FFAnnounce{default}> {green}{1}{default} 데미지를 {blue}{2}{default}에게 줌!"
 	}
 	"announceff_chat_attacked"
@@ -14,6 +15,7 @@
 	}
 	"announceff_hint_attack"
 	{
+		"#format"	"{1:d},{2:s}"
 		"ko"		"<FFAnnounce> {1} 데미지를 {2}에게 줌!"
 	}
 	"announceff_hint_attacked"
@@ -22,6 +24,7 @@
 	}
 	"announceff_printcenter_attack"
 	{
+		"#format"	"{1:d},{2:s}"
 		"ko"		"<FFAnnounce> {1} 데미지를 {2}에게 줌!"
 	}
 	"announceff_printcenter_attacked"

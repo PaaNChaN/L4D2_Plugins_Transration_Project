@@ -15,6 +15,7 @@
 	}
 	"announceff_hint_attack"
 	{
+		"#format"	"{1:d},{2:s}"
 		"jp"		"<FFAnnounce> {1} ダメージのFFを {2} に与えてしまった！"
 	}
 	"announceff_hint_attacked"
@@ -23,6 +24,7 @@
 	}
 	"announceff_printcenter_attack"
 	{
+		"#format"	"{1:d},{2:s}"
 		"jp"		"<FFAnnounce> {1} ダメージのFFを {2} に与えてしまった！"
 	}
 	"announceff_printcenter_attacked"

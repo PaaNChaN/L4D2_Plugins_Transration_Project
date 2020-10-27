@@ -2,12 +2,12 @@
 {
 	"ltc_TankMessage_you"
 	{
-		"jp"		"{red}<{default}Tank Selection{red}> {green}あなた{default}がこのチャプターの{red}タンク{default}です！"
+		"jp"		"{red}<{default}Tank Selection{red}> {green}あなた {default}がこのチャプターの{red}タンク{default}です！"
 	}
 
 	"ltc_TankMessage"
 	{
-		"jp"		"{red}<{default}Tank Selection{red}> {olive}%s{default}がこのチャプターの{red}タンク{default}です！"
+		"jp"		"{red}<{default}Tank Selection{red}> {olive}%s {default}がこのチャプターの{red}タンク{default}です！"
 	}
 	
 	"lototb_ragemeter_hint"

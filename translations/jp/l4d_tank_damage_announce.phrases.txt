@@ -2,7 +2,7 @@
 {
 	"prh_remaining_health"
 	{
-		"jp"		"{default}[{green}!{default}] {blue}タンク{default}({olive}%s{default}) は残り{green}%d {default}HP 残っています"
+		"jp"		"{default}[{green}!{default}] {blue}タンク{default}({olive}%s{default}) の体力は残り {green}%d {default}HPです。"
 	}
 	
 	"ptd_tankdmg"

@@ -2,7 +2,7 @@
 {
 	"prh_remaining_health"
 	{
-		"ko"		"{default}[{green}!{default}] {blue}탱크 {default}({olive}%s{default}) 의 남은 체력은{green}%d {default}HP 입니다."
+		"ko"		"{default}[{green}!{default}] {blue}탱크 {default}({olive}%s{default}) 의 남은 체력은 {green}%d {default}HP 입니다."
 	}
 	
 	"ptd_tankdmg"

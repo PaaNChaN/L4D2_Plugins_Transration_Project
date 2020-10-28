@@ -1,0 +1,72 @@
+﻿"Phrases"
+{
+	"Print_CmdBonus_Full"
+	{
+		"ko"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | Pills: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound"
+	{
+		"ko"		"%sR{green}#1{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_CmdBonus_Lite"
+	{
+		"ko"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdBonus"
+	{
+		"ko"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {lightgreen}%.0f%%{default} | DB: {lightgreen}%.0f%%{default} | Pills: {lightgreen}%.0f%%{default}]"
+	}
+
+	"Print_CmdBonus_SecondRound"
+	{
+		"ko"		"%sR{green}#1{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_Title"
+	{
+		"ko"		"[{green}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] Map Info"
+	}
+
+	"Print_CmdMapInfo_Distance"
+	{
+		"ko"		"Distance: {olive}%d"
+	}
+
+	"Print_CmdMapInfo_TotalBonus"
+	{
+		"ko"		"Total Bonus: {olive}%d{default} <{lightgreen}100.0%%{default}>"
+	}
+
+	"Print_CmdMapInfo_HealthBonus"
+	{
+		"ko"		"Health Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_DamageBonus"
+	{
+		"ko"		"Damage Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_PillsBonus"
+	{
+		"ko"		"Pills Bonus: {olive}%d{default} (max {olive}%d{default}) <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_Tiebreaker"
+	{
+		"ko"		"Tiebreaker: {olive}%d"
+	}
+
+	"Print_RoundEndStats"
+	{
+		"ko"		"%sRound {green}%i{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_RoundEndStats_TIEBREAKER"
+	{
+		"ko"		"%s{lightgreen}TIEBREAKER{default}: Team {green}%#1{default} - {olive}%i{default}, Team {green}%#2{default} - {olive}%i{default}"
+	}
+}

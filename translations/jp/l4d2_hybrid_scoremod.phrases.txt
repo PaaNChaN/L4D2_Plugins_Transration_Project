@@ -1,0 +1,72 @@
+﻿"Phrases"
+{
+	"Print_CmdBonus_Full"
+	{
+		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}> [ヘルボ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ダメボ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ピル: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound"
+	{
+		"jp"		"%sR{green}#1{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_CmdBonus_Lite"
+	{
+		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdBonus"
+	{
+		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}> [ヘルボ: {lightgreen}%.0f%%{default} | ダメボ: {lightgreen}%.0f%%{default} | ピル: {lightgreen}%.0f%%{default}]"
+	}
+
+	"Print_CmdBonus_SecondRound"
+	{
+		"jp"		"%sR{green}#1{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_Title"
+	{
+		"jp"		"[{green}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] マップ情報"
+	}
+
+	"Print_CmdMapInfo_Distance"
+	{
+		"jp"		"距離スコア: {olive}%d"
+	}
+
+	"Print_CmdMapInfo_TotalBonus"
+	{
+		"jp"		"合計ボーナス: {olive}%d{default} <{lightgreen}100.0%%{default}>"
+	}
+
+	"Print_CmdMapInfo_HealthBonus"
+	{
+		"jp"		"ヘルスボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_DamageBonus"
+	{
+		"jp"		"ダメージボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_PillsBonus"
+	{
+		"jp"		"ピルボーナス: {olive}%d{default} (最大 {olive}%d{default}) <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_Tiebreaker"
+	{
+		"jp"		"タイブレーカー: {olive}%d"
+	}
+
+	"Print_RoundEndStats"
+	{
+		"jp"		"%sR {green}%i{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_RoundEndStats_TIEBREAKER"
+	{
+		"jp"		"%s{lightgreen}タイブレーカー{default}: チーム {green}%#1{default} - {olive}%i{default}, チーム {green}%#2{default} - {olive}%i{default}"
+	}
+}

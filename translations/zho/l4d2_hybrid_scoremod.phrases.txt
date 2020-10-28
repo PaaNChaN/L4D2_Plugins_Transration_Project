@@ -2,71 +2,71 @@
 {
 	"Print_CmdBonus_Full"
 	{
-		"zho"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | Pills: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
+		"zho"		"%sR{green}#%i{default} 獎勵分: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | PB: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
 	"Print_CmdBonus_Full_SecondRound"
 	{
-		"zho"		"%sR{green}#1{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"zho"		"%sR{green}#1{default} 獎勵分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
 
 	"Print_CmdBonus_Lite"
 	{
-		"zho"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"zho"		"%sR{green}#%i{default} 獎勵分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdBonus"
 	{
-		"zho"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {lightgreen}%.0f%%{default} | DB: {lightgreen}%.0f%%{default} | Pills: {lightgreen}%.0f%%{default}]"
+		"zho"		"%sR{green}#%i{default} 獎勵分: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {lightgreen}%.0f%%{default} | DB: {lightgreen}%.0f%%{default} | PB: {lightgreen}%.0f%%{default}]"
 	}
 
 	"Print_CmdBonus_SecondRound"
 	{
-		"zho"		"%sR{green}#1{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"zho"		"%sR{green}#1{default} 獎勵分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_Title"
 	{
-		"zho"		"[{green}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] Map Info"
+		"zho"		"[{green}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] 地圖資訊"
 	}
 
 	"Print_CmdMapInfo_Distance"
 	{
-		"zho"		"Distance: {olive}%d"
+		"zho"		"路程分: {olive}%d"
 	}
 
 	"Print_CmdMapInfo_TotalBonus"
 	{
-		"zho"		"Total Bonus: {olive}%d{default} <{lightgreen}100.0%%{default}>"
+		"zho"		"總獎勵分: {olive}%d{default} <{lightgreen}100.0%%{default}>"
 	}
 
 	"Print_CmdMapInfo_HealthBonus"
 	{
-		"zho"		"Health Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"zho"		"實血分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_DamageBonus"
 	{
-		"zho"		"Damage Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"zho"		"虛血分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_PillsBonus"
 	{
-		"zho"		"Pills Bonus: {olive}%d{default} (max {olive}%d{default}) <{lightgreen}%.1f%%{default}>"
+		"zho"		"藥分: {olive}%d{default} (max {olive}%d{default}) <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_Tiebreaker"
 	{
-		"zho"		"Tiebreaker: {olive}%d"
+		"zho"		"決勝分: {olive}%d"
 	}
 
 	"Print_RoundEndStats"
 	{
-		"zho"		"%sRound {green}%i{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"zho"		"%s回合 {green}%i{default} 獎勵分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"
 	{
-		"zho"		"%s{lightgreen}TIEBREAKER{default}: Team {green}%#1{default} - {olive}%i{default}, Team {green}%#2{default} - {olive}%i{default}"
+		"zho"		"%s{lightgreen}同分決勝{default}: 隊伍 {green}%#1{default} - {olive}%i{default}, 隊伍 {green}%#2{default} - {olive}%i{default}"
 	}
 }

@@ -2,71 +2,71 @@
 {
 	"Print_CmdBonus_Full"
 	{
-		"chi"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | Pills: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
+		"chi"		"%sR{green}#%i{default} 奖励分: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | PB: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
 	"Print_CmdBonus_Full_SecondRound"
 	{
-		"chi"		"%sR{green}#1{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"chi"		"%sR{green}#1{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
 
 	"Print_CmdBonus_Lite"
 	{
-		"chi"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"chi"		"%sR{green}#%i{default} 奖励分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdBonus"
 	{
-		"chi"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {lightgreen}%.0f%%{default} | DB: {lightgreen}%.0f%%{default} | Pills: {lightgreen}%.0f%%{default}]"
+		"chi"		"%sR{green}#%i{default} 奖励分: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {lightgreen}%.0f%%{default} | DB: {lightgreen}%.0f%%{default} | PB: {lightgreen}%.0f%%{default}]"
 	}
 
 	"Print_CmdBonus_SecondRound"
 	{
-		"chi"		"%sR{green}#1{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"chi"		"%sR{green}#1{default} 奖励分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_Title"
 	{
-		"chi"		"[{green}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] Map Info"
+		"chi"		"[{green}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] 地图信息"
 	}
 
 	"Print_CmdMapInfo_Distance"
 	{
-		"chi"		"Distance: {olive}%d"
+		"chi"		"路程分: {olive}%d"
 	}
 
 	"Print_CmdMapInfo_TotalBonus"
 	{
-		"chi"		"Total Bonus: {olive}%d{default} <{lightgreen}100.0%%{default}>"
+		"chi"		"总奖励分: {olive}%d{default} <{lightgreen}100.0%%{default}>"
 	}
 
 	"Print_CmdMapInfo_HealthBonus"
 	{
-		"chi"		"Health Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"chi"		"实血分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_DamageBonus"
 	{
-		"chi"		"Damage Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+		"chi"		"虚血分: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_PillsBonus"
 	{
-		"chi"		"Pills Bonus: {olive}%d{default} (max {olive}%d{default}) <{lightgreen}%.1f%%{default}>"
+		"chi"		"药分: {olive}%d{default} (max {olive}%d{default}) <{lightgreen}%.1f%%{default}>"
 	}
 
 	"Print_CmdMapInfo_Tiebreaker"
 	{
-		"chi"		"Tiebreaker: {olive}%d"
+		"chi"		"决胜分: {olive}%d"
 	}
 
 	"Print_RoundEndStats"
 	{
-		"chi"		"%sRound {green}%i{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"chi"		"%s回合 {green}%i{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"
 	{
-		"chi"		"%s{lightgreen}TIEBREAKER{default}: Team {green}%#1{default} - {olive}%i{default}, Team {green}%#2{default} - {olive}%i{default}"
+		"chi"		"%s{lightgreen}平局决胜{default}: 队伍 {green}%#1{default} - {olive}%i{default}, 队伍 {green}%#2{default} - {olive}%i{default}"
 	}
 }

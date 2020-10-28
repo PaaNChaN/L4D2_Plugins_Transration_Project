@@ -62,7 +62,7 @@
 
 	"Print_RoundEndStats"
 	{
-		"ko"		"%sR{green}#%i{default} 보너스: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"ko"		"%s라운드 {green}#%i{default} 보너스: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"

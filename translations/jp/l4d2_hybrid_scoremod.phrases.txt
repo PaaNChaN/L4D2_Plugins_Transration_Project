@@ -62,7 +62,7 @@
 
 	"Print_RoundEndStats"
 	{
-		"jp"		"%sR {green}%i{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"jp"		"%sラウンド {green}#%i{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"

@@ -2,11 +2,11 @@
 {
 	"Print_WaterSlowDown_TankSpawn"
 	{
-		"zho"		"Tank局中 {olive}水中减速{default} 将被减弱。"
+		"zho"		"Tank局中 {olive}水緩{default} 將被減弱。"
 	}
 
 	"Print_WaterSlowDown_TankDeath"
 	{
-		"zho"		"{olive}水中减速{default} 已恢复到正常水平。"
+		"zho"		"{olive}水緩{default} 已恢復到正常水平。"
 	}
 }

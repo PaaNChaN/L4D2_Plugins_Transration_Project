@@ -87,11 +87,11 @@
 
 	"Print_SurvivorState_Wiped_Out"
 	{
-		"zho"		"{green}wiped out{default}"
+		"zho"		"{green}團滅{default}"
 	}
 
 	"Print_SurvivorState_Bonus_Depleted"
 	{
-		"zho"		"{green}bonus depleted{default}"
+		"zho"		"{green}獎勵歸零{default}"
 	}
 }

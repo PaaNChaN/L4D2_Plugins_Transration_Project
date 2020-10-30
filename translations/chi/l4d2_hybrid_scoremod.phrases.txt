@@ -87,11 +87,11 @@
 
 	"Print_SurvivorState_Wiped_Out"
 	{
-		"chi"		"{green}wiped out{default}"
+		"chi"		"{green}团灭{default}"
 	}
 
 	"Print_SurvivorState_Bonus_Depleted"
 	{
-		"chi"		"{green}bonus depleted{default}"
+		"chi"		"{green}分耗殆尽{default}"
 	}
 }

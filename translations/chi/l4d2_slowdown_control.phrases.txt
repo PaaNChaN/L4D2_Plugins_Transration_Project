@@ -2,11 +2,11 @@
 {
 	"Print_WaterSlowDown_TankSpawn"
 	{
-		"chi"		"{olive}Water Slowdown{default} has been reduced while Tank is in play."
+		"chi"		"Tank局中 {olive}水緩{default} 將被減弱。"
 	}
 
 	"Print_WaterSlowDown_TankDeath"
 	{
-		"chi"		"{olive}Water Slowdown{default} has been restored to normal."
+		"chi"		"{olive}水緩{default} 已恢復到正常水平。"
 	}
 }

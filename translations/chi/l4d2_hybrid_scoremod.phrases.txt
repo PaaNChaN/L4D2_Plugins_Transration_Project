@@ -5,9 +5,14 @@
 		"chi"		"%sR{green}#%i{default} 奖励分: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | PB: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
-	"Print_CmdBonus_Full_SecondRound"
+	"Print_CmdBonus_Full_SecondRound_0"
 	{
 		"chi"		"%sR{green}#1{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound_1"
+	{
+		"chi"		"%sR{green}#1{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_CmdBonus_Lite"
@@ -60,13 +65,33 @@
 		"chi"		"决胜分: {olive}%d"
 	}
 
-	"Print_RoundEndStats"
+	"Print_RoundEndStats_0"
 	{
-		"chi"		"%s回合 {green}%i{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"chi"		"%s回合 {green}#%i{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_RoundEndStats_1"
+	{
+		"chi"		"%s回合 {green}#%i{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"
 	{
 		"chi"		"%s{lightgreen}平局决胜{default}: 队伍 {green}%#1{default} - {olive}%i{default}, 队伍 {green}%#2{default} - {olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Num"
+	{
+		"chi"		"%s%i{default}/{olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Wiped_Out"
+	{
+		"chi"		"{green}wiped out{default}"
+	}
+
+	"Print_SurvivorState_Bonus_Depleted"
+	{
+		"chi"		"{green}bonus depleted{default}"
 	}
 }

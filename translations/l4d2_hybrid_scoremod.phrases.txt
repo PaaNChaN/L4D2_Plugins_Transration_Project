@@ -5,9 +5,14 @@
 		"en"		"%sR{green}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | Pills: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
-	"Print_CmdBonus_Full_SecondRound"
+	"Print_CmdBonus_Full_SecondRound_0"
 	{
 		"en"		"%sR{green}#1{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound_1"
+	{
+		"en"		"%sR{green}#1{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_CmdBonus_Lite"
@@ -60,13 +65,33 @@
 		"en"		"Tiebreaker: {olive}%d"
 	}
 
-	"Print_RoundEndStats"
+	"Print_RoundEndStats_0"
 	{
-		"en"		"%sRound {green}%i{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"en"		"%sRound {green}#%i{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_RoundEndStats_1"
+	{
+		"en"		"%sRound {green}#%i{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"
 	{
 		"en"		"%s{lightgreen}TIEBREAKER{default}: Team {green}%#1{default} - {olive}%i{default}, Team {green}%#2{default} - {olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Num"
+	{
+		"en"		"%s%i{default}/{olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Wiped_Out"
+	{
+		"en"		"{green}wiped out{default}"
+	}
+
+	"Print_SurvivorState_Bonus_Depleted"
+	{
+		"en"		"{green}bonus depleted{default}"
 	}
 }

@@ -5,9 +5,14 @@
 		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}> [ヘルボ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ダメボ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ピル: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
-	"Print_CmdBonus_Full_SecondRound"
+	"Print_CmdBonus_Full_SecondRound_0"
 	{
 		"jp"		"%sR{green}#1{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound_1"
+	{
+		"jp"		"%sR{green}#1{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_CmdBonus_Lite"
@@ -60,13 +65,34 @@
 		"jp"		"タイブレーカー: {olive}%d"
 	}
 
-	"Print_RoundEndStats"
+	"Print_RoundEndStats_0"
 	{
 		"jp"		"%sラウンド {green}#%i{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+
+	"Print_RoundEndStats_1"
+	{
+		"jp"		"%sラウンド {green}#%i{default} ボーナス: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"
 	{
 		"jp"		"%s{lightgreen}タイブレーカー{default}: チーム {green}%#1{default} - {olive}%i{default}, チーム {green}%#2{default} - {olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Num"
+	{
+		"jp"		"%s%i{default}/{olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Wiped_Out"
+	{
+		"jp"		"{green}全滅{default}"
+	}
+
+	"Print_SurvivorState_Bonus_Depleted"
+	{
+		"jp"		"{green}ボーナス無し{default}"
 	}
 }

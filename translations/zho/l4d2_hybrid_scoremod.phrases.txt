@@ -5,9 +5,14 @@
 		"zho"		"%sR{green}#%i{default} 獎勵分: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | PB: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
-	"Print_CmdBonus_Full_SecondRound"
+	"Print_CmdBonus_Full_SecondRound_0"
 	{
 		"zho"		"%sR{green}#1{default} 獎勵分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound_1"
+	{
+		"zho"		"%sR{green}#1{default} 獎勵分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_CmdBonus_Lite"
@@ -60,13 +65,33 @@
 		"zho"		"決勝分: {olive}%d"
 	}
 
-	"Print_RoundEndStats"
+	"Print_RoundEndStats_0"
 	{
-		"zho"		"%s回合 {green}%i{default} 獎勵分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"zho"		"%s回合 {green}#%i{default} 獎勵分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_RoundEndStats_1"
+	{
+		"zho"		"%s回合 {green}#%i{default} 獎勵分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"
 	{
 		"zho"		"%s{lightgreen}同分決勝{default}: 隊伍 {green}%#1{default} - {olive}%i{default}, 隊伍 {green}%#2{default} - {olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Num"
+	{
+		"zho"		"%s%i{default}/{olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Wiped_Out"
+	{
+		"zho"		"{green}wiped out{default}"
+	}
+
+	"Print_SurvivorState_Bonus_Depleted"
+	{
+		"zho"		"{green}bonus depleted{default}"
 	}
 }

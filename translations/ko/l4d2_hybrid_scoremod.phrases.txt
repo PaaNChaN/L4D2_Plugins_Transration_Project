@@ -5,10 +5,16 @@
 		"ko"		"%sR{green}#%i{default} 보너스: {olive}%d{default} <{lightgreen}%.1f%%{default}> [체력: {olive}%d{default} <{lightgreen}%.1f%%{default}> | 데미지: {olive}%d{default} <{lightgreen}%.1f%%{default}> | 필: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
-	"Print_CmdBonus_Full_SecondRound"
+	"Print_CmdBonus_Full_SecondRound_0"
 	{
 		"ko"		"%sR{green}#1{default} 보너스: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
+
+	"Print_CmdBonus_Full_SecondRound_1"
+	{
+		"ko"		"%sR{green}#1{default} 보너스: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
+	}
+
 
 	"Print_CmdBonus_Lite"
 	{
@@ -60,13 +66,33 @@
 		"ko"		"타이 브레이커: {olive}%d"
 	}
 
-	"Print_RoundEndStats"
+	"Print_RoundEndStats_0"
 	{
 		"ko"		"%s라운드 {green}#%i{default} 보너스: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_RoundEndStats_1"
+	{
+		"ko"		"%s라운드 {green}#%i{default} 보너스: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
 	}
 
 	"Print_RoundEndStats_TIEBREAKER"
 	{
 		"ko"		"%s{lightgreen}타이 브레이커{default}: 팀 {green}%#1{default} - {olive}%i{default}, 팀 {green}%#2{default} - {olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Num"
+	{
+		"ko"		"%s%i{default}/{olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Wiped_Out"
+	{
+		"ko"		"{green}wiped out{default}"
+	}
+
+	"Print_SurvivorState_Bonus_Depleted"
+	{
+		"ko"		"{green}bonus depleted{default}"
 	}
 }

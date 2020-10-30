@@ -45,7 +45,8 @@ new iLostTempHealth[2];
 new iTempHealth[MAXPLAYERS + 1];
 new iSiDamage[2];
 
-new String:sSurvivorState[2][32];
+new bool:bSurvivorState[2];
+new String:sSurvivorState[2][64];
 
 new bool:bLateLoad;
 new bool:bRoundOver;
@@ -221,11 +222,17 @@ public Action:CmdBonus(client, args)
 	new Float:fPillsBonus = GetSurvivorPillBonus();
 	new Float:fMaxPillsBonus = float(iPillWorth * iTeamSize);
 
+	SetGlobalTransTarget(client);
+
 	if (StrEqual(sCmdType, "full"))
 	{
 		if (InSecondHalfOfRound())
 		{
-			CPrintToChat(client, "%t", "Print_CmdBonus_Full_SecondRound", PLUGIN_TAG, RoundToFloor(fSurvivorBonus[0]), RoundToFloor(fMapBonus + fMaxPillsBonus), CalculateBonusPercent(fSurvivorBonus[0]), sSurvivorState[0]);
+			if (!bSurvivorState[0]) {
+				CPrintToChat(client, "%t", "Print_CmdBonus_Full_SecondRound_0", PLUGIN_TAG, RoundToFloor(fSurvivorBonus[0]), RoundToFloor(fMapBonus + fMaxPillsBonus), CalculateBonusPercent(fSurvivorBonus[0]), sSurvivorState[0]);
+			} else {
+				CPrintToChat(client, "%t", "Print_CmdBonus_Full_SecondRound_1", PLUGIN_TAG, RoundToFloor(fSurvivorBonus[0]), RoundToFloor(fMapBonus + fMaxPillsBonus), CalculateBonusPercent(fSurvivorBonus[0]), sSurvivorState[0]);
+			}
 		}
 		CPrintToChat(client, "%t", "Print_CmdBonus_Full", PLUGIN_TAG, InSecondHalfOfRound() + 1, RoundToFloor(fHealthBonus + fDamageBonus + fPillsBonus), CalculateBonusPercent(fHealthBonus + fDamageBonus + fPillsBonus, fMapHealthBonus + fMapDamageBonus + fMaxPillsBonus), RoundToFloor(fHealthBonus), CalculateBonusPercent(fHealthBonus, fMapHealthBonus), RoundToFloor(fDamageBonus), CalculateBonusPercent(fDamageBonus, fMapDamageBonus), RoundToFloor(fPillsBonus), CalculateBonusPercent(fPillsBonus, fMaxPillsBonus));
 		// R#1 Bonus: 556 <69.5%> [HB: 439 <73.1%> | DB: 117 <58.5%> | Pills: 90 <75.0%>]
@@ -383,17 +390,23 @@ public Action:L4D2_OnEndVersusModeRound(bool:countSurvivors)
 	{
 		SetConVarInt(hCvarValveSurvivalBonus, RoundToFloor(fSurvivorBonus[team] / iSurvivalMultiplier));
 		fSurvivorBonus[team] = float(GetConVarInt(hCvarValveSurvivalBonus) * iSurvivalMultiplier);    // workaround for the discrepancy caused by RoundToFloor()
-		Format(sSurvivorState[team], 32, "%s%i\x01/\x05%i\x01", (iSurvivalMultiplier == iTeamSize ? "\x05" : "\x04"), iSurvivalMultiplier, iTeamSize);
+		Format(sSurvivorState[team], 64, "%t", "Print_SurvivorState_Num", (iSurvivalMultiplier == iTeamSize ? "{olive}" : "{green}"), iSurvivalMultiplier, iTeamSize);
 	#if SM2_DEBUG
 		PrintToChatAll("\x01Survival bonus cvar updated. Value: \x05%i\x01 [multiplier: \x05%i\x01]", GetConVarInt(hCvarValveSurvivalBonus), iSurvivalMultiplier);
 	#endif
+		bSurvivorState[team] = false;
 	}
 	else
 	{
 		fSurvivorBonus[team] = 0.0;
 		SetConVarInt(hCvarValveSurvivalBonus, 0);
-		Format(sSurvivorState[team], 32, "\x04%s\x01", (iSurvivalMultiplier == 0 ? "wiped out" : "bonus depleted"));
+		if (iSurvivalMultiplier == 0) {
+			Format(sSurvivorState[team], 64, "Print_SurvivorState_Wiped_Out");
+		} else {
+			Format(sSurvivorState[team], 64, "Print_SurvivorState_Bonus_Depleted");
+		}
 		bTiebreakerEligibility[team] = (iSurvivalMultiplier == iTeamSize);
+		bSurvivorState[team] = true;
 	}
 
 	// Check if it's the end of the second round and a tiebreaker case
@@ -420,7 +433,11 @@ public Action:PrintRoundEndStats(Handle:timer)
 {
 	for (new i = 0; i <= InSecondHalfOfRound(); i++)
 	{
-		CPrintToChatAll("%t", "Print_RoundEndStats", PLUGIN_TAG, (i + 1), RoundToFloor(fSurvivorBonus[i]), RoundToFloor(fMapBonus + float(iPillWorth * iTeamSize)), CalculateBonusPercent(fSurvivorBonus[i]), sSurvivorState[i]);
+		if (!bSurvivorState[i]) {
+			CPrintToChatAll("%t", "Print_RoundEndStats_0", PLUGIN_TAG, (i + 1), RoundToFloor(fSurvivorBonus[i]), RoundToFloor(fMapBonus + float(iPillWorth * iTeamSize)), CalculateBonusPercent(fSurvivorBonus[i]), sSurvivorState[i]);
+		} else {
+			CPrintToChatAll("%t", "Print_RoundEndStats_1", PLUGIN_TAG, (i + 1), RoundToFloor(fSurvivorBonus[i]), RoundToFloor(fMapBonus + float(iPillWorth * iTeamSize)), CalculateBonusPercent(fSurvivorBonus[i]), sSurvivorState[i]);
+		}
 		// [EQSM :: Round 1] Bonus: 487/1200 <42.7%> [3/4]
 	}
 	

@@ -88,11 +88,11 @@
 
 	"Print_SurvivorState_Wiped_Out"
 	{
-		"ko"		"{green}wiped out{default}"
+		"ko"		"{green}전멸{default}"
 	}
 
 	"Print_SurvivorState_Bonus_Depleted"
 	{
-		"ko"		"{green}bonus depleted{default}"
+		"ko"		"{green}보너스 없음{default}"
 	}
 }

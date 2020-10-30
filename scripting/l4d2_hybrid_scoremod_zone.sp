@@ -400,11 +400,7 @@ public Action:L4D2_OnEndVersusModeRound(bool:countSurvivors)
 	{
 		fSurvivorBonus[team] = 0.0;
 		SetConVarInt(hCvarValveSurvivalBonus, 0);
-		if (iSurvivalMultiplier == 0) {
-			Format(sSurvivorState[team], 64, "Print_SurvivorState_Wiped_Out");
-		} else {
-			Format(sSurvivorState[team], 64, "Print_SurvivorState_Bonus_Depleted");
-		}
+		Format(sSurvivorState[team], 64, (iSurvivalMultiplier == 0 ? "Print_SurvivorState_Wiped_Out" : "Print_SurvivorState_Bonus_Depleted"));
 		bTiebreakerEligibility[team] = (iSurvivalMultiplier == iTeamSize);
 		bSurvivorState[team] = true;
 	}

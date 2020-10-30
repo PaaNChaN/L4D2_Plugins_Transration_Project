@@ -1,0 +1,12 @@
+﻿"Phrases"
+{
+	"Print_WaterSlowDown_TankSpawn"
+	{
+		"jp"		"タンク戦中は {olive}ウォータースローダウン{default} が減少します。"
+	}
+
+	"Print_WaterSlowDown_TankDeath"
+	{
+		"jp"		"{olive}ウォータースローダウン{default} が通常に戻りました。"
+	}
+}

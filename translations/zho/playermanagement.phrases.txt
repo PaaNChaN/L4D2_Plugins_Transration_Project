@@ -2,6 +2,6 @@
 {
 	"Print_Move_Spectator"
 	{
-		"zho"		"{teamcolor}%N{default} has become a spectator!"
+		"zho"		"{teamcolor}%N{default} 移動到觀眾！"
 	}
 }

@@ -1,0 +1,7 @@
+﻿"Phrases"
+{
+	"Print_Move_Spectator"
+	{
+		"zho"		"{teamcolor}%N{default} has become a spectator!"
+	}
+}

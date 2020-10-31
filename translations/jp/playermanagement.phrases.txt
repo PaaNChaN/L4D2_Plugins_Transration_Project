@@ -1,0 +1,7 @@
+﻿"Phrases"
+{
+	"Print_Move_Spectator"
+	{
+		"jp"		"{teamcolor}%N{default} が観戦者に移動しました！"
+	}
+}

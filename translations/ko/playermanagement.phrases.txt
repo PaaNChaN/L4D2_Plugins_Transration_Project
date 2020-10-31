@@ -2,6 +2,6 @@
 {
 	"Print_Move_Spectator"
 	{
-		"ko"		"{teamcolor}%N{default} has become a spectator!"
+		"ko"		"{teamcolor}%N{default} 이(가) 관전자로 이동하였습니다!"
 	}
 }

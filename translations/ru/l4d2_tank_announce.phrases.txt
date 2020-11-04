@@ -1,0 +1,7 @@
+﻿"Phrases"
+{
+	"ets_tank_spawn"
+	{
+		"ru"		"{red}[{default}!{red}] {olive}Танк {default}появился!"
+	}
+}

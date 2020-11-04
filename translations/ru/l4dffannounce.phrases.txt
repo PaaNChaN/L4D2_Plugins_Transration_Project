@@ -1,0 +1,43 @@
+﻿"Phrases"
+{
+	"announceff_chat_attack"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"<{olive}FFAnnounce{default}> Вы нанесли {green}{1}{default} FF урона {blue}{2}{default}"
+	}
+	"announceff_chat_attacked"
+	{
+		"ru"		"<{olive}FFAnnounce{default}> {blue}%s{default} нанёс {green}%d{default} FF урона вам"
+	}
+	"announceff_chat_damagetotal"
+	{
+		"ru"		"<{olive}FFAnnounce{default}> Всего урона: {green}%d{default}"
+	}
+	"announceff_hint_attack"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"<FFAnnounce> Вы нанесли {1} FF урона {2}"
+	}
+	"announceff_hint_attacked"
+	{
+		"ru"		"<FFAnnounce> %s нанёс %d FF урона вам"
+	}
+	"announceff_printcenter_attack"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"<FFAnnounce> Вы нанесли {1} FF урона {2}"
+	}
+	"announceff_printcenter_attacked"
+	{
+		"ru"		"<FFAnnounce> %s нанёс %d FF урона вам"
+	}
+	"announceff_print_roundend_totaldamage"
+	{
+		"ru"		"<{olive}FFAnnounce{default}> Общий урон FF, нанесённый игрокам:"
+	}
+	"announceff_print_roundend_totaldamage_player"
+	{
+		"#format"	"{1:s},{2:d},{3:.0f}"
+		"ru"		"{olive}{2}{default} Урон [{green}{3}%%{default}] : {blue}{1}{default}"
+	}
+}

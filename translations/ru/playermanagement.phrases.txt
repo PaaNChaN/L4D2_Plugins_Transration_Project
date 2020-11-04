@@ -1,0 +1,7 @@
+﻿"Phrases"
+{
+	"Print_Move_Spectator"
+	{
+		"ru"		"{teamcolor}%N{default} стал наблюдателем!"
+	}
+}

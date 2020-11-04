@@ -1,0 +1,17 @@
+﻿"Phrases"
+{
+	"prh_remaining_health"
+	{
+		"ru"		"{default}[{green}!{default}] {blue}Танк {default}({olive}%s{default}) имел {green}%d {default}оставшегося здоровья"
+	}
+	
+	"ptd_tankdmg"
+	{
+		"ru"		"{default}[{green}!{default}] {blue}Урон {default}нанесённый {blue}Танку {default}({olive}%s{default})"
+	}
+
+	"ptd_tank_surdmg"
+	{
+		"ru"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
+	}
+}

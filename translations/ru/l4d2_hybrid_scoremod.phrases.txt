@@ -1,0 +1,97 @@
+﻿"Phrases"
+{
+	"Print_CmdBonus_Full"
+	{
+		"ru"		"%sR{green}#%i{default} Бонус: {olive}%d{default} <{lightgreen}%.1f%%{default}> [БЗ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | БУ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | Таблетки: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound_0"
+	{
+		"ru"		"%sR{green}#1{default} Бонус: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_CmdBonus_Full_SecondRound_1"
+	{
+		"ru"		"%sR{green}#1{default} Бонус: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
+	}
+
+	"Print_CmdBonus_Lite"
+	{
+		"ru"		"%sR{green}#%i{default} Бонус: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdBonus"
+	{
+		"ru"		"%sR{green}#%i{default} Бонус: {olive}%d{default} <{lightgreen}%.1f%%{default}> [БЗ: {lightgreen}%.0f%%{default} | БУ: {lightgreen}%.0f%%{default} | Таблетки: {lightgreen}%.0f%%{default}]"
+	}
+
+	"Print_CmdBonus_SecondRound"
+	{
+		"ru"		"%sR{green}#1{default} Бонус: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_Title"
+	{
+		"ru"		"[{green}Гибридный бонус{default} :: {lightgreen}%iv%i{default}] Информация о карте"
+	}
+
+	"Print_CmdMapInfo_Distance"
+	{
+		"ru"		"Расстояние: {olive}%d"
+	}
+
+	"Print_CmdMapInfo_TotalBonus"
+	{
+		"ru"		"Общий бонус: {olive}%d{default} <{lightgreen}100.0%%{default}>"
+	}
+
+	"Print_CmdMapInfo_HealthBonus"
+	{
+		"ru"		"Бонус здоровья: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_DamageBonus"
+	{
+		"ru"		"Бонус урона: {olive}%d{default} <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_PillsBonus"
+	{
+		"ru"		"Бонус таблеток: {olive}%d{default} (макс. {olive}%d{default}) <{lightgreen}%.1f%%{default}>"
+	}
+
+	"Print_CmdMapInfo_Tiebreaker"
+	{
+		"ru"		"Ничья: {olive}%d"
+	}
+
+	"Print_RoundEndStats_0"
+	{
+		"ru"		"%sРаунд {green}#%i{default} Бонус: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+	}
+
+	"Print_RoundEndStats_1"
+	{
+		"ru"		"%sРаунд {green}#%i{default} Бонус: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%t]"
+	}
+
+	"Print_RoundEndStats_TIEBREAKER"
+	{
+		"ru"		"%s{lightgreen}НИЧЬЯ{default}: Команда {green}%#1{default} - {olive}%i{default}, Команда {green}%#2{default} - {olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Num"
+	{
+		"ru"		"%s%i{default}/{olive}%i{default}"
+	}
+
+	"Print_SurvivorState_Wiped_Out"
+	{
+		"ru"		"{green}уничтожены{default}"
+	}
+
+	"Print_SurvivorState_Bonus_Depleted"
+	{
+		"ru"		"{green}бонус исчерпан{default}"
+	}
+}

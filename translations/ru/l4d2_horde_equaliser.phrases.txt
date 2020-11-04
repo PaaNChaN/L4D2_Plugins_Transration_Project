@@ -1,0 +1,12 @@
+﻿"Phrases"
+{
+	"losm_common_limit"
+	{
+		"ru"		"<{olive}Орда{default}> Началось {blue}событие{default} из {olive}%i{default} обычных заражённых! Стоять или бежать, выбор за вами!"
+	}
+
+	"oec_remaining"
+	{
+		"ru"		"<{olive}Орда{default}> {red}%i{default} common remaining.."
+	}
+}

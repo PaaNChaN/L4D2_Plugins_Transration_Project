@@ -65,13 +65,11 @@ float fTankRunSpeed;
 
 bool tankInPlay = false;
 
-float fModifier[MAXPLAYERS+1] = -1.0;
-
 public Plugin myinfo =
 {
 	name = "L4D2 Slowdown Control",
 	author = "Visor, Sir, darkid, Forgetest",
-	version = "2.6.2",
+	version = "2.6.1",
 	description = "Manages the water/gunfire slowdown for both teams",
 	url = "https://github.com/ConfoglTeam/ProMod"
 };
@@ -115,18 +113,8 @@ public void OnPluginStart()
 	HookEvent("round_start", RoundStart, EventHookMode_PostNoCopy);
 	HookEvent("player_hurt", PlayerHurt);
 	HookEvent("player_death", TankDeath);
-
+	
 	LoadTranslations("l4d2_slowdown_control.phrases");
-}
-
-public void OnClientPutInServer(int client)
-{
-	fModifier[client] = -1.0;
-}
-
-public void OnClientDisconnect(int client)
-{
-	fModifier[client] = -1.0;
 }
 
 public void OnConVarChanged(ConVar convar, const char[] oldValue, const char[] newValue)
@@ -208,7 +196,7 @@ public Action PlayerHurt(Event event, const char[] name, bool dontBroadcast)
 
 /**
  *
- * Slowdown application: Infected & Survivors
+ * Slowdown from water: Tank & Survivors
  *
 **/
 
@@ -261,39 +249,25 @@ public Action L4D_OnGetRunTopSpeed(int client, float &retVal)
 		}
 	}
 	
-	else if (IsInfected(client)) 
+	else if (IsInfected(client) && IsTank(client)) 
 	{
-		// boolean to store whether the speed is changed (probably no need, but for safety)
-		bool bOverride = false;
-		
 		// Only bother the actual speed if player is a tank moving in water
-		if (bInWater && IsTank(client) && fTankWaterSpeed != -1.0)
+		if (bInWater && fTankWaterSpeed != -1.0)
 		{
 			// slowdown off
 			if (fTankWaterSpeed == 0.0)
 			{
 				retVal = fTankRunSpeed;
-				bOverride = true;
+				return Plugin_Handled;
 			}
 			
 			// specific speed
 			else
 			{
 				retVal = fTankWaterSpeed;
-				bOverride = true;
+				return Plugin_Handled;
 			}
 		}
-		
-		// The player (SI or Tank) is getting slowdown due to gunfire
-		if (fModifier[client] != -1.0)
-		{
-			retVal *= fModifier[client];
-			fModifier[client] = -1.0;
-			bOverride = true;
-		}
-		
-		// The final value is either changed or unchanged one
-		if (bOverride) return Plugin_Handled;
 	}
 	
 	return Plugin_Continue;
@@ -317,13 +291,7 @@ void ApplySlowdown(int client, float value)
 	if (value == -1.0)
 		return;
 
-	// Await to be checked and used in L4D_OnGetRunTopSpeed
-	fModifier[client] = value;
-	
-	// We don't need this old-school method anymore,
-	// in which any speed is affected, such as jumping speed.
-	
-	//SetEntPropFloat(client, Prop_Send, "m_flVelocityModifier", value);
+	SetEntPropFloat(client, Prop_Send, "m_flVelocityModifier", value);
 }
 
 stock int FindTankClient()

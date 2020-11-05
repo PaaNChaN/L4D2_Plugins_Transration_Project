@@ -1,0 +1,12 @@
+﻿"Phrases"
+{
+	"Print_WaterSlowDown_TankSpawn"
+	{
+		"ru"		"{olive}Замедление в воде{default} было уменьшено, пока Танк в игре."
+	}
+
+	"Print_WaterSlowDown_TankDeath"
+	{
+		"ru"		"{olive}Замедление в воде{default} было восстановлено до нормального."
+	}
+}

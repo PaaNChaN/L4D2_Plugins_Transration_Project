@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"(Voice)"
+	{
+		"ru"		"(Голос)"
+	}
+	
+	"playeraskready"
+	{
+		"ru"		"Готовы?"
+	}
+	
+	"playerno"
+	{
+		"ru"		"Нет"
+	}
+	
+	"playersorry"
+	{
+		"ru"		"Извини"
+	}
+	
+	"playeryes"
+	{
+		"ru"		"Да"
+	}
+	
+	"playerthanks"
+	{
+		"ru"		"Спасибо!"
+	}
+	
+	"playermoveon"
+	{
+		"ru"		"Пошли"
+	}
+	
+	"playerleadon"
+	{
+		"ru"		"Веди нас"
+	}
+	
+	"playerhurryup"
+	{
+		"ru"		"Поторопись!"
+	}
+	
+	"playernicejob"
+	{
+		"ru"		"Отличная работа!"
+	}
+	
+	"playerwaithere"
+	{
+		"ru"		"Подождите здесь!"
+	}
+	
+	"playerwarncareful"
+	{
+		"ru"		"Осторожно"
+	}
+	
+	"playerimwithyou"
+	{
+		"ru"		"Я здесь"
+	}
+	
+	"playeralsowarnsmoker"
+	{
+		"ru"		"Курильщик!"
+	}
+	
+	"playeralsowarnboomer"
+	{
+		"ru"		"Толстяк!"
+	}
+	
+	"playeralsowarnhunter"
+	{
+		"ru"		"Охотник!"
+	}
+	
+	"playeralsowarnspitter"
+	{
+		"ru"		"Плевальщица!"
+	}
+	
+	"playeralsowarnjockey"
+	{
+		"ru"		"Жокей!"
+	}
+	
+	"playeralsowarncharger"
+	{
+		"ru"		"Громила!"
+	}
+	
+	"playeralsowarnwitch"
+	{
+		"ru"		"Ведьма!"
+	}
+	
+	"playeralsowarntank"
+	{
+		"ru"		"Танк!"
+	}
+}

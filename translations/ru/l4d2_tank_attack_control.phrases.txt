@@ -1,0 +1,22 @@
+﻿"Phrases"
+{
+	"rockSelector"
+	{
+		"ru"		"{blue}[{default}Выбор камня танка{blue}]"
+	}
+
+	"twoHandOverhand"
+	{
+		"ru"		"{olive}Перезарядка {default}= {blue}2 руки сверху"
+	}
+	
+	"underhandThrow"
+	{
+		"ru"		"{olive}Использовать {default}= {blue}Скрытый"
+	}
+
+	"oneHandOverhand"
+	{
+		"ru"		"{olive}M2 {default}= {blue}1 рука сверху"
+	}
+}

@@ -1,0 +1,7 @@
+﻿"Phrases"
+{
+	"current_cmd"
+	{
+		"ru"		"Текущий: {green}%d%%{default}"
+	}
+}

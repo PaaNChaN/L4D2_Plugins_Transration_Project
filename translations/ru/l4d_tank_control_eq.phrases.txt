@@ -1,0 +1,26 @@
+"Phrases"
+{
+	"ltc_TankMessage_you"
+	{
+		"ru"		"{red}<{default}Выбор танка{red}> {green}Вы {default}станете {red}Танком{default}!"
+	}
+	"ltc_TankMessage"
+	{
+		"ru"		"{red}<{default}Выбор танка{red}> {olive}%s {default}станет {red}Танком!"
+	}
+	
+	"lototb_ragemeter_hint"
+	{
+		"ru"		"Счётчик ярости пополнен"
+	}
+
+	"lototb_ragemeter_chat_you"
+	{
+		"ru"		"{red}<{default}Танковая ярость{red}> {olive}Счётчик ярости {red}восполнен"
+	}
+
+	"lototb_ragemeter_chat"
+	{
+		"ru"		"{red}<{default}Танковая ярость{red}> {olive}Счётчик ярости игрока {default}({green}%N{default}) {red}восполнен"
+	}
+}

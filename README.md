@@ -3,4 +3,4 @@ Translate of some sentences.
 https://github.com/SirPlease/L4D2-Competitive-Rework/
 
 Languages:  
-English, Chiniese(Simplified・Traditional), Japanese, Korean
+English, Chiniese(Simplified・Traditional), Japanese, Korean, Russian

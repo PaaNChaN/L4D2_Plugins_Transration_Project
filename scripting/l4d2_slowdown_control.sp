@@ -205,13 +205,13 @@ public Action L4D_OnGetRunTopSpeed(int client, float &retVal)
 	if (!IsClientInGame(client)) return Plugin_Continue;
 	
 	bool bInWater = (GetEntityFlags(client) & FL_INWATER) ? true : false;
-	bool bAdrenaline = GetEntProp(client, Prop_Send, "m_bAdrenalineActive") ? true : false;
 	
 	if (IsSurvivor(client))
 	{
 		// Adrenaline = Don't care, don't mess with it.
 		// Limping = 260 speed (both in water and on the ground)
 		// Healthy = 260 speed (both in water and on the ground)
+		bool bAdrenaline = GetEntProp(client, Prop_Send, "m_bAdrenalineActive") ? true : false;
 		if (bAdrenaline) 
 		  return Plugin_Continue;
 

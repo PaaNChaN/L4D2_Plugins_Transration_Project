@@ -2,7 +2,7 @@
 {
 	"losm_common_limit"
 	{
-		"chi"		"<{olive}Horde{default}> {blue}有限尸潮{default} 已经开始, 将刷出 {olive}%i{default} 个僵尸.."
+		"chi"		"<{olive}Horde{default}> {blue}有限尸潮事件{default} 已经开始, 将刷出 {olive}%i{default} 个僵尸.."
 	}
 
 	"oec_remaining"

@@ -12,16 +12,16 @@
 	
 	"lototb_ragemeter_hint"
 	{
-		"zho"		"現在 Tank 第二控"
+		"zho"		"現在 Tank 第二控制權已經開始，請把握好剩餘控制權。"
 	}
 
 	"lototb_ragemeter_chat_you"
 	{
-		"zho"		"{red}<{default}Tank Rage{red}> {olive}現在 Tank 第二控{default}"
+		"zho"		"{red}<{default}Tank Rage{red}> {olive}現在 Tank 第二控制權已經開始{default}"
 	}
 
 	"lototb_ragemeter_chat"
 	{
-		"zho"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}現在 Tank 第二控{default}"
+		"zho"		"{red}<{default}Tank Rage{red}> {default}{olive}現在Tank {default}({green}%N{default}) {olive}的第二控制權已經開始{default}"
 	}
 }

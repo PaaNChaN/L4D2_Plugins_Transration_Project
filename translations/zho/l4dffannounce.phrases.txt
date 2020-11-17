@@ -7,7 +7,7 @@
 	}
 	"announceff_chat_attacked"
 	{
-		"zho"		"<{olive}FFAnnounce{default}> {blue}%s{default} 友傷你 {green}%d{default} 血!"
+		"zho"		"<{olive}FFAnnounce{default}> {blue}%s{default} 友傷了你 {green}%d{default} 血!"
 	}
 	"announceff_chat_damagetotal"
 	{
@@ -20,7 +20,7 @@
 	}
 	"announceff_hint_attacked"
 	{	
-		"zho"		"<FFAnnounce> %s 友傷你 %d 血!"
+		"zho"		"<FFAnnounce> %s 友傷了你 %d 血!"
 	}
 	"announceff_printcenter_attack"
 	{
@@ -29,15 +29,15 @@
 	}
 	"announceff_printcenter_attacked"
 	{
-		"zho"		"<FFAnnounce> %s 友傷你 %d 血!"
+		"zho"		"<FFAnnounce> %s 友傷了你 %d 血!"
 	}
 	"announceff_print_roundend_totaldamage"
 	{
-		"zho"		"<{olive}FFAnnounce{default}> 您對玩家造成的總傷害:"
+		"zho"		"<{olive}FFAnnounce{default}> 您對隊友造成的總傷害:"
 	}
 	"announceff_print_roundend_totaldamage_player"
 	{
 		"#format"	"{1:s},{2:d},{3:.0f}"
-		"zho"		"{olive}{2}{default} 友傷 [{green}{3}%%{default}] : {blue}{1}{default}"
+		"zho"		"{olive}{2}{default} 點友傷 [{green}{3}%%{default}] : {blue}{1}{default}"
 	}
 }

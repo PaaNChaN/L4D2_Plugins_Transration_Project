@@ -7,12 +7,12 @@
 	
 	"playeraskready"
 	{
-		"chi"		"好了吗"
+		"chi"		"准备好了吗"
 	}
 	
 	"playerno"
 	{
-		"chi"		"否"
+		"chi"		"不"
 	}
 	
 	"playersorry"
@@ -37,7 +37,7 @@
 	
 	"playerleadon"
 	{
-		"chi"		"你走前面"
+		"chi"		"你带路"
 	}
 	
 	"playerhurryup"

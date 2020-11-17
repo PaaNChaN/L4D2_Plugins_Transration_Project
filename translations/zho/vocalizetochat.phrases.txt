@@ -7,7 +7,7 @@
 	
 	"playeraskready"
 	{
-		"zho"		"準備好了？"
+		"zho"		"準備好了嗎？"
 	}
 	
 	"playerno"

@@ -62,7 +62,7 @@
 
 	"Print_CmdMapInfo_Tiebreaker"
 	{
-		"zho"		"決勝分: {olive}%d"
+		"zho"		"平局決勝分: {olive}%d"
 	}
 
 	"Print_RoundEndStats_0"

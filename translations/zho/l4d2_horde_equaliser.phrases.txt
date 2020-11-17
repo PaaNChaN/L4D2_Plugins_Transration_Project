@@ -2,7 +2,7 @@
 {
 	"losm_common_limit"
 	{
-		"zho"		"<{olive}Horde{default}> {blue}有限屍潮{default} 已經開始, 將刷出 {olive}%i{default} 個殭屍.."
+		"zho"		"<{olive}Horde{default}> {blue}有限屍潮事件{default} 已經開始, 將刷出 {olive}%i{default} 個殭屍.."
 	}
 
 	"oec_remaining"

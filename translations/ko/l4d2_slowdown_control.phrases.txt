@@ -7,6 +7,6 @@
 
 	"Print_WaterSlowDown_TankDeath"
 	{
-		"ko"		"{olive}수중 감속{default} 이 정상적으로 돌아왔습니다."
+		"ko"		"{olive}수중 감속{default} 이 정상으로 돌아왔습니다."
 	}
 }

@@ -2,7 +2,7 @@
 {
 	"Print_CmdBonus_Full"
 	{
-		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}> [ヘルボ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ダメボ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ピル: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
+		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}> [ヘルス: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ダメージ: {olive}%d{default} <{lightgreen}%.1f%%{default}> | ピル: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}
 
 	"Print_CmdBonus_Full_SecondRound_0"
@@ -22,7 +22,7 @@
 
 	"Print_CmdBonus"
 	{
-		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}> [ヘルボ: {lightgreen}%.0f%%{default} | ダメボ: {lightgreen}%.0f%%{default} | ピル: {lightgreen}%.0f%%{default}]"
+		"jp"		"%sR{green}#%i{default} ボーナス: {olive}%d{default} <{lightgreen}%.1f%%{default}> [ヘルス: {lightgreen}%.0f%%{default} | ダメージ: {lightgreen}%.0f%%{default} | ピル: {lightgreen}%.0f%%{default}]"
 	}
 
 	"Print_CmdBonus_SecondRound"

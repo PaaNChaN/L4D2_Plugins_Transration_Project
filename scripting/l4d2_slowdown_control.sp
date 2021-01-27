@@ -69,7 +69,7 @@ public Plugin myinfo =
 {
 	name = "L4D2 Slowdown Control",
 	author = "Visor, Sir, darkid, Forgetest",
-	version = "2.6.1",
+	version = "2.6.2",
 	description = "Manages the water/gunfire slowdown for both teams",
 	url = "https://github.com/ConfoglTeam/ProMod"
 };
@@ -99,11 +99,6 @@ public void OnPluginStart()
 	hCvarSurvivorLimpspeed = FindConVar("survivor_limp_health");
 	hCvarTankSpeedVS = FindConVar("z_tank_speed_vs");
 	
-	fTankWaterSpeed = GetConVarFloat(hCvarSdInwaterTank);
-	fSurvWaterSpeed = GetConVarFloat(hCvarSdInwaterSurvivor);
-	fSurvWaterSpeedDuringTank = GetConVarFloat(hCvarSdInwaterDuringTank);
-	fTankRunSpeed = GetConVarFloat(hCvarTankSpeedVS);
-	
 	hCvarSdInwaterTank.AddChangeHook(OnConVarChanged);
 	hCvarSdInwaterSurvivor.AddChangeHook(OnConVarChanged);
 	hCvarSdInwaterDuringTank.AddChangeHook(OnConVarChanged);
@@ -115,6 +110,14 @@ public void OnPluginStart()
 	HookEvent("player_death", TankDeath);
 	
 	LoadTranslations("l4d2_slowdown_control.phrases");
+}
+
+public void OnConfigsExecuted()
+{
+	fTankWaterSpeed = GetConVarFloat(hCvarSdInwaterTank);
+	fSurvWaterSpeed = GetConVarFloat(hCvarSdInwaterSurvivor);
+	fSurvWaterSpeedDuringTank = GetConVarFloat(hCvarSdInwaterDuringTank);
+	fTankRunSpeed = GetConVarFloat(hCvarTankSpeedVS);
 }
 
 public void OnConVarChanged(ConVar convar, const char[] oldValue, const char[] newValue)
